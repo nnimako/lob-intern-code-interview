@@ -1,0 +1,64 @@
+html{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#index section.container-fluid.index-page{
+	margin: 0;
+	padding: 0;
+}
+
+#index button{
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+
+#index div.simple-about{
+	background-image: url("cover.png");
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+
+#index section.container-fluid.index-page2{
+	background-color: rgba(160, 234, 242, 0.6);
+	height: 100vh;
+	margin: 0;
+	padding: 1.5%;
+}
+
+#index section.container-fluid.index-page2 h2{
+	font-size: 5em;
+	color: white;
+	font-weight: bolder;
+	font-family: "Neuton", serif;
+}
+
+#index section.container-fluid.index-page2 p{
+	font-size: 1.5em;
+}
+
+#index div.centered{
+	position: absolute;
+	top: 50vh;
+	width: 100%;
+	text-align: center;
+}
+
+#index main{
+	padding: 0;
+}
+
+
+.empty_block{
+	height: 300px;
+}
