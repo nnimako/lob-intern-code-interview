@@ -23,6 +23,7 @@ function changeDialValue (index, incrementBy) {
   } else if (lockState.wheels[index] < 9 && lockState.wheels[index] >= 1){
     lockState.wheels[index] += incrementBy;
   }
+  
 
   // to change the state of the lock, simply make a call like
   // lockState.locked = false
